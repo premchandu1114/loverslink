@@ -11,7 +11,8 @@ const localVideo  = document.getElementById('localVideo');
 const remoteVideo = document.getElementById('remoteVideo');
 
 // 🔥 POINT THIS TO YOUR RENDER APP (HTTPS required for WebRTC)
-const API_BASE = 'https://<loverslink>.onrender.com';
+// RIGHT—points at your live Flask API
+const API_BASE = 'https://loverlink-chat.onrender.com';
 
 // ———————————— SEND CHAT MESSAGE ————————————
 chatForm.onsubmit = async e => {
