@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoverLink ❤️</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header><h1>💖 LoverLink 💖</h1></header>
+    <div class="nickname-bar">
+      <input id="user" type="text" placeholder="Your sweet name..." />
+      <button id="callBtn">📞 Call</button>
+    </div>
+    <div id="messages" class="messages"></div>
+    <form id="chatForm" class="input-area" enctype="multipart/form-data">
+      <input id="textInput" name="text" type="text" placeholder="Write your love..." />
+      <input id="fileInput" name="file" type="file" accept="image/*,video/*,audio/*" />
+      <button type="submit" id="sendBtn">💌</button>
+    </form>
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay></video>
+  </div>
+  <script src="/static/main.js"></script>
+  <script src="/static/webrtc.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Flask==2.2.5
+Werkzeug<3.0  # pin to avoid CLI error
+Flask-Cors==3.0.10
+python-magic==0.4.27   # for MIME type checks (optional)
